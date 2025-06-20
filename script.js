@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModalBtn = document.getElementById('close-modal-btn');
     const themeToggleBtn = document.getElementById('theme-toggle');
     const themeIcon = document.getElementById('theme-icon');
-    const backendUrl = import.meta.env.VITE_API_BASE_URL;
+    const backendUrl ='https://toolverse-backend.onrender.com';
 
    
     const applyTheme = (theme) => {
